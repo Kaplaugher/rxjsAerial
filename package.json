@@ -3,20 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "docs:build": "vuepress build docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kaplaugher/rxjsAerial.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kaplaugher/rxjsAerial/issues"
-  },
-  "homepage": "https://github.com/Kaplaugher/rxjsAerial#readme"
+    "scripts": {
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs"
+    }
 }
